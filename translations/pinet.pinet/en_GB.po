@@ -1,0 +1,1287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: PiNet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-03 21:42+0000\n"
+"PO-Revision-Date: 2017-03-23 21:51+0000\n"
+"Last-Translator: PiNet <support@pi-ltsp.net>\n"
+"Language-Team: English (United Kingdom) (http://www.transifex.com/pinet/pinet/language/en_GB/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: pinet:111
+msgid ""
+"A required system update has been found. The Raspbian operating system will "
+"now be recompressed to apply this update"
+msgstr "A required system update has been found. The Raspbian operating system will now be recompressed to apply this update"
+
+#: pinet:190
+msgid "ERROR!"
+msgstr "ERROR!"
+
+#: pinet:190
+msgid ""
+"No internet connection detected or other software is already being "
+"installed! Please wait 5-10 minutes and try again or connect to the internet"
+" "
+msgstr "No internet connection detected or other software is already being installed! Please wait 5-10 minutes and try again or connect to the internet "
+
+#: pinet:311
+msgid ""
+"A required system update has been found. The Raspbian operating system will "
+"now be recompressed to apply this update."
+msgstr "A required system update has been found. The Raspbian operating system will now be recompressed to apply this update."
+
+#: pinet:393
+msgid "Install complete"
+msgstr "Install complete"
+
+#: pinet:393
+msgid ""
+"The client install is complete, a boot.img file has been placed in /root "
+"folder, write this to an sd card"
+msgstr "The client install is complete, a boot.img file has been placed in /root folder, write this to an sd card"
+
+#: pinet:419
+msgid "Compressing the image, this will take roughly 5 minutes"
+msgstr "Compressing the image, this will take roughly 5 minutes"
+
+#: pinet:424
+msgid ""
+"Auto recompression of Raspbian OS is disabled. To enable, run NBD-recompress"
+" from the Other menu."
+msgstr "Auto recompression of Raspbian OS is disabled. To enable, run NBD-recompress from the Other menu."
+
+#: pinet:433
+msgid "Network technology"
+msgstr "Network technology"
+
+#: pinet:433
+msgid ""
+"2 network technologies are available for PiNet. NBD and NFS. NBD uses "
+"compression dramatically improving application loading times. The tradeoff "
+"though is after every modification to the operating system, the image must "
+"be recompressed which can take around 5 minutes. NFS is slower but does not "
+"need compressed, all changes run live. If in doubt, select NBD."
+msgstr "2 network technologies are available for PiNet. NBD and NFS. NBD uses compression dramatically improving application loading times. The tradeoff though is after every modification to the operating system, the image must be recompressed which can take around 5 minutes. NFS is slower but does not need compressed, all changes run live. If in doubt, select NBD."
+
+#: pinet:516
+msgid "Reboot required"
+msgstr "Reboot required"
+
+#: pinet:516
+msgid ""
+"A group ID change has taken place to correct an ID mismatch. This is nothing"
+" to worry about unless you are seeing repeatedly. Please reboot your PiNet "
+"server as soon as possible."
+msgstr "A group ID change has taken place to correct an ID mismatch. This is nothing to worry about unless you are seeing repeatedly. Please reboot your PiNet server as soon as possible."
+
+#: pinet:530
+msgid "Teacher"
+msgstr "Teacher"
+
+#: pinet:530
+msgid ""
+"Teachers have full admin access on the server (so can run PiNet), full "
+"read/write access to all shared folders and Epoptes teacher level (so can "
+"control students computers)."
+msgstr "Teachers have full admin access on the server (so can run PiNet), full read/write access to all shared folders and Epoptes teacher level (so can control students computers)."
+
+#: pinet:531
+msgid "to add to the teacher group."
+msgstr "to add to the teacher group."
+
+#: pinet:535
+msgid "Success"
+msgstr "Success"
+
+#: pinet:589
+msgid ""
+"Enter the username of the user account you want to save the collected work "
+"to. This is usually your own account name"
+msgstr "Enter the username of the user account you want to save the collected work to. This is usually your own account name"
+
+#: pinet:589
+msgid "User selection"
+msgstr "User selection"
+
+#: pinet:593
+msgid "WARNING"
+msgstr "WARNING"
+
+#: pinet:593
+msgid "The current submitted folder will be deleted, are you sure?"
+msgstr "The current submitted folder will be deleted, are you sure?"
+
+#: pinet:606
+msgid "The user $user has a handin folder"
+msgstr "The user $user has a handin folder"
+
+#: pinet:612
+msgid "The user $user does not have a handin folder"
+msgstr "The user $user does not have a handin folder"
+
+#: pinet:618
+msgid "Complete"
+msgstr "Complete"
+
+#: pinet:618
+msgid ""
+"Students work has been collected and can be found in "
+"/home/$USERHAND/submitted/"
+msgstr "Students work has been collected and can be found in /home/$USERHAND/submitted/"
+
+#: pinet:620
+msgid "ERROR"
+msgstr "ERROR"
+
+#: pinet:620
+msgid "The username can't be blank!"
+msgstr "The username can't be blank!"
+
+#: pinet:623
+msgid "The user $USERHAND was not found!"
+msgstr "The user $USERHAND was not found!"
+
+#: pinet:662
+msgid "Sudo access"
+msgstr "Sudo access"
+
+#: pinet:662
+msgid ""
+"Would you like to give students access to the sudo command on their "
+"Raspberry Pi? Sudo (equivalent to run as administrator on Windows) is "
+"enabled by default on Raspbian, so disabling it can cause issues with some "
+"software. It is required for some GPIO activities as well. Enabling it "
+"though does in theory introduce the possibility of students bypassing the "
+"built in PiNet tampering safeguards. You can change your mind later the in "
+"Manage-Users submenu."
+msgstr "Would you like to give students access to the sudo command on their Raspberry Pi? Sudo (equivalent to run as administrator on Windows) is enabled by default on Raspbian, so disabling it can cause issues with some software. It is required for some GPIO activities as well. Enabling it though does in theory introduce the possibility of students bypassing the built in PiNet tampering safeguards. You can change your mind later the in Manage-Users submenu."
+
+#: pinet:681
+msgid "Current location $(pwd)"
+msgstr "Current location $(pwd)"
+
+#: pinet:681
+msgid ""
+"Select a folder. To select this folder, select ./ and to go up a folder, "
+"select ../ "
+msgstr "Select a folder. To select this folder, select ./ and to go up a folder, select ../ "
+
+#: pinet:689
+msgid "chosen location is $location"
+msgstr "chosen location is $location"
+
+#: pinet:700
+msgid "Enter new username"
+msgstr "Enter new username"
+
+#: pinet:773
+msgid "Username"
+msgstr "Username"
+
+#: pinet:776
+msgid "Enter new password"
+msgstr "Enter new password"
+
+#: pinet:776
+msgid "Password"
+msgstr "Password"
+
+#: pinet:781
+msgid "Username already exists!"
+msgstr "Username already exists!"
+
+#: pinet:785
+msgid "$username has been added to system!"
+msgstr "$username has been added to system!"
+
+#: pinet:785
+msgid "Failed to add a user!"
+msgstr "Failed to add a user!"
+
+#: pinet:787
+msgid "Permission level"
+msgstr "Permission level"
+
+#: pinet:787
+msgid ""
+"Is $username a pupil or a teacher? Teachers have a lot more permissions "
+"including write access to all shared folders, Epoptes teacher access and the"
+" ability to run PiNet control software."
+msgstr "Is $username a pupil or a teacher? Teachers have a lot more permissions including write access to all shared folders, Epoptes teacher access and the ability to run PiNet control software."
+
+#: pinet:787
+msgid "Pupil"
+msgstr "Pupil"
+
+#: pinet:787
+msgid ""
+"A new teacher user has been added to the system successfully with the name -"
+" $username"
+msgstr "A new teacher user has been added to the system successfully with the name - $username"
+
+#: pinet:792
+msgid ""
+"A new student user has been added to the system successfully with the name -"
+" $username"
+msgstr "A new student user has been added to the system successfully with the name - $username"
+
+#: pinet:795
+msgid "Another user"
+msgstr "Another user"
+
+#: pinet:795
+msgid "Would you like to add another user?"
+msgstr "Would you like to add another user?"
+
+#: pinet:807
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+#: pinet:807
+msgid ""
+"Are you sure you want to delete $username and all $username's user files?"
+msgstr "Are you sure you want to delete $username and all $username's user files?"
+
+#: pinet:810
+msgid "Successful"
+msgstr "Successful"
+
+#: pinet:810
+msgid "User successfully removed"
+msgstr "User successfully removed"
+
+#: pinet:813
+msgid "Would you like to delete another user?"
+msgstr "Would you like to delete another user?"
+
+#: pinet:822
+msgid "to change the password of."
+msgstr "to change the password of."
+
+#: pinet:824
+msgid "Enter the new password"
+msgstr "Enter the new password"
+
+#: pinet:824
+msgid "Password successfully changed"
+msgstr "Password successfully changed"
+
+#: pinet:829
+msgid "Error"
+msgstr "Error"
+
+#: pinet:829
+msgid "Password not valid"
+msgstr "Password not valid"
+
+#: pinet:832
+msgid "Would you like to change another users password?"
+msgstr "Would you like to change another users password?"
+
+#: pinet:842
+msgid "Select backup"
+msgstr "Select backup"
+
+#: pinet:842
+msgid ""
+"Please select a backup file. They are normally the date, time followed by "
+"Raspi-Users-Backup.tar.gz"
+msgstr "Please select a backup file. They are normally the date, time followed by Raspi-Users-Backup.tar.gz"
+
+#: pinet:849
+msgid "Users"
+msgstr "Users"
+
+#: pinet:849
+msgid "Select a user $1"
+msgstr "Select a user $1"
+
+#: pinet:859
+msgid "Troubleshooter"
+msgstr "Troubleshooter"
+
+#: pinet:859
+msgid ""
+"Welcome to PiNet troubleshooter. The troubleshooter goes over a few possible"
+" issues you may be having with your setup and offers advice. WARNING - This "
+"troubleshooter is experimental, feel free to open issue reports at "
+"$Repository/issues if you have any additional issues."
+msgstr "Welcome to PiNet troubleshooter. The troubleshooter goes over a few possible issues you may be having with your setup and offers advice. WARNING - This troubleshooter is experimental, feel free to open issue reports at $Repository/issues if you have any additional issues."
+
+#: pinet:860
+msgid "Boot"
+msgstr "Boot"
+
+#: pinet:860
+msgid "Have you got as far as your Raspberry Pi starting up?"
+msgstr "Have you got as far as your Raspberry Pi starting up?"
+
+#: pinet:862
+msgid "Login screen"
+msgstr "Login screen"
+
+#: pinet:862
+msgid "Have you got as far as the login screen displaying?"
+msgstr "Have you got as far as the login screen displaying?"
+
+#: pinet:864
+msgid "Are you having login issues?"
+msgstr "Are you having login issues?"
+
+#: pinet:866
+msgid "Login"
+msgstr "Login"
+
+#: pinet:866
+msgid "USB drivers"
+msgstr "USB drivers"
+
+#: pinet:869
+msgid "Is your keyboard working?"
+msgstr "Is your keyboard working?"
+
+#: pinet:871
+msgid "Kernel misaligned"
+msgstr "Kernel misaligned"
+
+#: pinet:871
+msgid ""
+"9/10 times, this means your kernels are misaligned. Basically there is a "
+"kernel on the SD card and as it boots and connects to the PiNet server, it "
+"loads the required additional modules (for stuff like USB) from the server. "
+"If the server has modules compiled for a more recent kernel, they are "
+"misaligned and don't work. To fix this, make sure you are running the most "
+"recent version of PiNet, also hit the update-sd option and reflash your SD "
+"card to see if that fixes it. If not, a patched set of boot files may not be"
+" available yet (they have to be prepared by hand). Best thing you can do is "
+"drop support an email and let them know that you are having keyboard/mouse "
+"issues. Visit http://pinet.org.uk/articles/support.html"
+msgstr "9/10 times, this means your kernels are misaligned. Basically there is a kernel on the SD card and as it boots and connects to the PiNet server, it loads the required additional modules (for stuff like USB) from the server. If the server has modules compiled for a more recent kernel, they are misaligned and don't work. To fix this, make sure you are running the most recent version of PiNet, also hit the update-sd option and reflash your SD card to see if that fixes it. If not, a patched set of boot files may not be available yet (they have to be prepared by hand). Best thing you can do is drop support an email and let them know that you are having keyboard/mouse issues. Visit http://pinet.org.uk/articles/support.html"
+
+#: pinet:873
+msgid "???"
+msgstr "???"
+
+#: pinet:873
+msgid ""
+"I am not aware of any other issues in this area. Please create a support "
+"ticket at $Repository/issues"
+msgstr "I am not aware of any other issues in this area. Please create a support ticket at $Repository/issues"
+
+#: pinet:878
+msgid "Fixed?"
+msgstr "Fixed?"
+
+#: pinet:878
+msgid "Is it fixed now? I just reset some of the networking services."
+msgstr "Is it fixed now? I just reset some of the networking services."
+
+#: pinet:880
+msgid "Connection refused"
+msgstr "Connection refused"
+
+#: pinet:880
+msgid "Are you getting connection refused or connection timed out error?"
+msgstr "Are you getting connection refused or connection timed out error?"
+
+#: pinet:883
+msgid ""
+"This is a common error, it occurs when the IP address of the server on the "
+"SD card is incorrect. Insert the SD card into a computer and open the "
+"cmdline.txt file. Find NBDRoot= (or NFSRoot=) and make sure the address that"
+" follows it is $IP  If it isn't, change it so it is. If it is currently "
+"1.1.1.1 the server was unable to get your current address when it created "
+"the SD card. If it is a different address, your server may have been "
+"assigned a new IP address. It would be a good idea to assign a static IP "
+"address to your server. Talk to your technician about this."
+msgstr "This is a common error, it occurs when the IP address of the server on the SD card is incorrect. Insert the SD card into a computer and open the cmdline.txt file. Find NBDRoot= (or NFSRoot=) and make sure the address that follows it is $IP  If it isn't, change it so it is. If it is currently 1.1.1.1 the server was unable to get your current address when it created the SD card. If it is a different address, your server may have been assigned a new IP address. It would be a good idea to assign a static IP address to your server. Talk to your technician about this."
+
+#: pinet:885
+msgid "Giving up"
+msgstr "Giving up"
+
+#: pinet:885
+msgid "Are you getting a number of 'giving up' errors?"
+msgstr "Are you getting a number of 'giving up' errors?"
+
+#: pinet:887
+msgid ""
+"This usually means the Raspberry Pi isn't physically connected to the "
+"network, check the ethernet cable is correctly plugged in (wifi is not "
+"supported) and is connected to your main switch."
+msgstr "This usually means the Raspberry Pi isn't physically connected to the network, check the ethernet cable is correctly plugged in (wifi is not supported) and is connected to your main switch."
+
+#: pinet:889
+msgid "SD card"
+msgstr "SD card"
+
+#: pinet:895
+msgid "Are you having issues with loading the files onto the SD card?"
+msgstr "Are you having issues with loading the files onto the SD card?"
+
+#: pinet:897
+msgid "Partitions"
+msgstr "Partitions"
+
+#: pinet:897
+msgid "Are you having issues with there being 2-3 partitions on the SD card?"
+msgstr "Are you having issues with there being 2-3 partitions on the SD card?"
+
+#: pinet:899
+msgid "Formating partitions"
+msgstr "Formating partitions"
+
+#: pinet:899
+msgid ""
+"When flashing Raspbian or another Raspberry Pi operating system onto SD "
+"cards, a number of partitions are created. PiNet only needs a single "
+"partition, the boot partition. This is usually a small (~50mb) partition "
+"which is formatted as fat32. If you wish to format the entire SD card (which"
+" if you are having issues, you may want to), please refer to the userguide "
+"section on formatting SD cards. "
+msgstr "When flashing Raspbian or another Raspberry Pi operating system onto SD cards, a number of partitions are created. PiNet only needs a single partition, the boot partition. This is usually a small (~50mb) partition which is formatted as fat32. If you wish to format the entire SD card (which if you are having issues, you may want to), please refer to the userguide section on formatting SD cards. "
+
+#: pinet:901
+msgid "Current Linux users"
+msgstr "Current Linux users"
+
+#: pinet:922
+msgid "Current Linux users in the teacher group"
+msgstr "Current Linux users in the teacher group"
+
+#: pinet:925
+msgid "Press enter to continue"
+msgstr "Press enter to continue"
+
+#: pinet:950
+msgid "Update complete"
+msgstr "Update complete"
+
+#: pinet:950
+msgid "The update succeeded. PiNet is now up to date on $ReleaseBranch."
+msgstr "The update succeeded. PiNet is now up to date on $ReleaseBranch."
+
+#: pinet:951
+msgid "Update-all"
+msgstr "Update-all"
+
+#: pinet:951
+msgid ""
+"After a software update it is recommended you do a system update. This will "
+"update all packages to their most recent version and add any new ones added "
+"in the update, do you want to?"
+msgstr "After a software update it is recommended you do a system update. This will update all packages to their most recent version and add any new ones added in the update, do you want to?"
+
+#: pinet:969
+msgid "Restarting PiNet"
+msgstr "Restarting PiNet"
+
+#: pinet:969
+msgid "Restarting PiNet to guarantee is running the correct branch version."
+msgstr "Restarting PiNet to guarantee is running the correct branch version."
+
+#: pinet:978
+msgid "Update failed"
+msgstr "Update failed"
+
+#: pinet:978
+msgid ""
+"The auto update failed. This usually means you aren't connected to the "
+"internet"
+msgstr "The auto update failed. This usually means you aren't connected to the internet"
+
+#: pinet:1059
+msgid "Updates are complete"
+msgstr "Updates are complete"
+
+#: pinet:1061
+msgid "No internet connection, unable to update software..."
+msgstr "No internet connection, unable to update software..."
+
+#: pinet:1078
+msgid "Setting up shared folders"
+msgstr "Setting up shared folders"
+
+#: pinet:1079
+msgid ""
+"As this is the first time you are using shared folders, they must be "
+"configured. This may take a few minutes."
+msgstr "As this is the first time you are using shared folders, they must be configured. This may take a few minutes."
+
+#: pinet:1089
+msgid ""
+"The shared folder at /home/shared/$1 could not be created. It may already "
+"exist."
+msgstr "The shared folder at /home/shared/$1 could not be created. It may already exist."
+
+#: pinet:1123
+msgid "Create shared folder"
+msgstr "Create shared folder"
+
+#: pinet:1123
+msgid ""
+"Shared folders are accessible on all the Raspberry Pis and appear on the "
+"left in the file manager. Would you like to add one?"
+msgstr "Shared folders are accessible on all the Raspberry Pis and appear on the left in the file manager. Would you like to add one?"
+
+#: pinet:1132
+msgid "Current shared folders"
+msgstr "Current shared folders"
+
+#: pinet:1137
+msgid "Hit enter to continue"
+msgstr "Hit enter to continue"
+
+#: pinet:1139
+msgid "Enter the name of the new shared folder"
+msgstr "Enter the name of the new shared folder"
+
+#: pinet:1139
+msgid "Shared folder"
+msgstr "Shared folder"
+
+#: pinet:1144
+msgid "Pupil write access"
+msgstr "Pupil write access"
+
+#: pinet:1144
+msgid ""
+"Should pupils have read/write access to this shared folder or just read "
+"access? (Default read only)"
+msgstr "Should pupils have read/write access to this shared folder or just read access? (Default read only)"
+
+#: pinet:1144
+msgid "Read"
+msgstr "Read"
+
+#: pinet:1144
+msgid "Read/Write"
+msgstr "Read/Write"
+
+#: pinet:1152
+msgid ""
+"The shared folder at /home/shared/$FolderName has been created! To access it"
+" reboot your Raspberry Pis."
+msgstr "The shared folder at /home/shared/$FolderName has been created! To access it reboot your Raspberry Pis."
+
+#: pinet:1156
+msgid "Folder name can not be blank!"
+msgstr "Folder name can not be blank!"
+
+#: pinet:1166
+msgid "Warning!"
+msgstr "Warning!"
+
+#: pinet:1166
+msgid ""
+"Warning! If you delete a shared folder, you must reboot all Raspberry Pis "
+"currently on as they may get confused. Would you like to continue?"
+msgstr "Warning! If you delete a shared folder, you must reboot all Raspberry Pis currently on as they may get confused. Would you like to continue?"
+
+#: pinet:1170
+msgid "Are you sure you want to permanently delete /home/shared/$toDelete ?"
+msgstr "Are you sure you want to permanently delete /home/shared/$toDelete ?"
+
+#: pinet:1173
+msgid "/home/shared/$toDelete"
+msgstr "/home/shared/$toDelete"
+
+#: pinet:1177
+msgid "The folder /home/shared/$toDelete has been successfully deleted."
+msgstr "The folder /home/shared/$toDelete has been successfully deleted."
+
+#: pinet:1180
+msgid ""
+"There was an issue removing the mount from /usr/local/bin/bindfs-mount... "
+"Please try again."
+msgstr "There was an issue removing the mount from /usr/local/bin/bindfs-mount... Please try again."
+
+#: pinet:1196
+msgid "Should $FolderName be Read/Write access for students or read only?"
+msgstr "Should $FolderName be Read/Write access for students or read only?"
+
+#: pinet:1196
+msgid ""
+"Permissions change complete, students now have read/write access in "
+"/home/shared/$FolderName"
+msgstr "Permissions change complete, students now have read/write access in /home/shared/$FolderName"
+
+#: pinet:1204
+msgid ""
+"Permissions change complete, students now have read only access in "
+"/home/shared/$FolderName"
+msgstr "Permissions change complete, students now have read only access in /home/shared/$FolderName"
+
+#: pinet:1214
+msgid "Invalid shared folder permissions"
+msgstr "Invalid shared folder permissions"
+
+#: pinet:1234
+msgid ""
+"Warning - Your shared folder permissions are invalid. This may be because "
+"you imported shared folders from a previous system. You must reselect the "
+"correct permission level for each folder now."
+msgstr "Warning - Your shared folder permissions are invalid. This may be because you imported shared folders from a previous system. You must reselect the correct permission level for each folder now."
+
+#: pinet:1319
+msgid "WARNING!!"
+msgstr "WARNING!!"
+
+#: pinet:1319
+msgid ""
+"Debian is no longer officially supported by PiNet! Please use Ubuntu 14.04 "
+"or later. Mileage may vary with Debian and PiNet..."
+msgstr "Debian is no longer officially supported by PiNet! Please use Ubuntu 14.04 or later. Mileage may vary with Debian and PiNet..."
+
+#: pinet:1321
+msgid ""
+"I don't recognise this operating system. Please use Ubuntu 14.04 or later. "
+"Mileage will vary greatly with other distributions and no support will be "
+"provided."
+msgstr "I don't recognise this operating system. Please use Ubuntu 14.04 or later. Mileage will vary greatly with other distributions and no support will be provided."
+
+#: pinet:1556
+msgid "Warning"
+msgstr "Warning"
+
+#: pinet:1556
+msgid ""
+"This process is only designed to move user files to a completely fresh "
+"Ubuntu install in which PiNet is not installed. Please make sure to verify "
+"all user data is imported correctly on the new PiNet server. Visit "
+"http://PiNet.org.uk/manage-users/migration.html for full instructions. Are "
+"you sure you want to proceed?"
+msgstr "This process is only designed to move user files to a completely fresh Ubuntu install in which PiNet is not installed. Please make sure to verify all user data is imported correctly on the new PiNet server. Visit http://PiNet.org.uk/manage-users/migration.html for full instructions. Are you sure you want to proceed?"
+
+#: pinet:1569
+msgid ""
+"The process is now complete. A zipped file called toMove.tar.gz has been "
+"saved in /home/$SUDO_USER/toMove.tar.gz. Please copy this to "
+"/home/youruser/toMove.tar.gz on the new server (via a pendrive for example) "
+"then run PiNet and select yes when asked about importing users."
+msgstr "The process is now complete. A zipped file called toMove.tar.gz has been saved in /home/$SUDO_USER/toMove.tar.gz. Please copy this to /home/youruser/toMove.tar.gz on the new server (via a pendrive for example) then run PiNet and select yes when asked about importing users."
+
+#: pinet:1577
+msgid ""
+"PiNet may already be installed! It is highly recommended against importing "
+"users with a previous PiNet install. You have been warned! Would you like to"
+" import them anyway?"
+msgstr "PiNet may already be installed! It is highly recommended against importing users with a previous PiNet install. You have been warned! Would you like to import them anyway?"
+
+#: pinet:1587
+msgid ""
+"The zipped file of user data can't be found at "
+"/home/$SUDO_USER/toMove.tar.gz."
+msgstr "The zipped file of user data can't be found at /home/$SUDO_USER/toMove.tar.gz."
+
+#: pinet:1593
+msgid ""
+"Importing should only be performed on a completely fresh Ubuntu install. "
+"PiNet or Raspi-LTSP must not already be installed. Make sure to manually "
+"check all files have copied correctly. Do you want to proceed?"
+msgstr "Importing should only be performed on a completely fresh Ubuntu install. PiNet or Raspi-LTSP must not already be installed. Make sure to manually check all files have copied correctly. Do you want to proceed?"
+
+#: pinet:1600
+msgid "Import failed"
+msgstr "Import failed"
+
+#: pinet:1600
+msgid ""
+"The user import has failed, /home/$SUDO_USER/toMove.tar.gz wasn't found? Are"
+" you sure you copied it to that location? Would you like to try again?"
+msgstr "The user import has failed, /home/$SUDO_USER/toMove.tar.gz wasn't found? Are you sure you copied it to that location? Would you like to try again?"
+
+#: pinet:1615
+msgid "Note"
+msgstr "Note"
+
+#: pinet:1615
+msgid ""
+"ScratchGPIO can't be directly installed, each user must install it. A "
+"desktop shortcut has been added to each user account called \\\"Install "
+"ScratchGPIO\\\". Get each student to run this the first time they want to "
+"use the software."
+msgstr "ScratchGPIO can't be directly installed, each user must install it. A desktop shortcut has been added to each user account called \\\"Install ScratchGPIO\\\". Get each student to run this the first time they want to use the software."
+
+#: pinet:1663
+msgid "Importing users"
+msgstr "Importing users"
+
+#: pinet:1663
+msgid ""
+"Would you like to import user data from a previous PiNet (or Raspi-LTSP) "
+"server? This can only be done now on installation. If in doubt, select no."
+msgstr "Would you like to import user data from a previous PiNet (or Raspi-LTSP) server? This can only be done now on installation. If in doubt, select no."
+
+#: pinet:1699
+msgid "Error!"
+msgstr "Error!"
+
+#: pinet:1699
+msgid ""
+"I am sorry, there has been a critical error with pinet. A required library "
+"file could not be acquired. PiNet is unable to function without this "
+"library. This may be because you are not connected to the internet or there "
+"may be another problem. Please manually download the file from http://bit.ly"
+"/pinet-fn and copy it to $PythonFunctions. If the issue persists, please "
+"contact support at http://PiNet.org.uk/support.html"
+msgstr "I am sorry, there has been a critical error with pinet. A required library file could not be acquired. PiNet is unable to function without this library. This may be because you are not connected to the internet or there may be another problem. Please manually download the file from http://bit.ly/pinet-fn and copy it to $PythonFunctions. If the issue persists, please contact support at http://PiNet.org.uk/support.html"
+
+#: pinet:1714
+msgid "Kernel file update"
+msgstr "Kernel file update"
+
+#: pinet:1714
+msgid ""
+"An important update is available for the Raspberry Pi kernel files (files on"
+" the SD cards). If you upgrade, PiNet will attempt to load these new files "
+"onto your SD cards on boot up. This update is highly recommended. You "
+"currently are using version $current and the most up to date version is "
+"$newVersion. Would you like to proceed with an automatic update of the boot "
+"files and your server?"
+msgstr "An important update is available for the Raspberry Pi kernel files (files on the SD cards). If you upgrade, PiNet will attempt to load these new files onto your SD cards on boot up. This update is highly recommended. You currently are using version $current and the most up to date version is $newVersion. Would you like to proceed with an automatic update of the boot files and your server?"
+
+#: pinet:1716
+msgid "Auto reboot"
+msgstr "Auto reboot"
+
+#: pinet:1716
+msgid ""
+"Your Raspberry Pis will attempt to auto update their SD cards (by grabbing "
+"the version from the server) on next reboot. They will do this in the "
+"background and reboot when the update is complete **without warning**."
+msgstr "Your Raspberry Pis will attempt to auto update their SD cards (by grabbing the version from the server) on next reboot. They will do this in the background and reboot when the update is complete **without warning**."
+
+#: pinet:1740
+msgid ""
+"An update for the kernel update program has been detected, this will be "
+"applied automatically"
+msgstr "An update for the kernel update program has been detected, this will be applied automatically"
+
+#: pinet:1814
+msgid "Release channels"
+msgstr "Release channels"
+
+#: pinet:1814
+msgid "Stable"
+msgstr "Stable"
+
+#: pinet:1814
+msgid "Development"
+msgstr "Development"
+
+#: pinet:1814
+msgid ""
+"Would you like to use the stable or development (dev) software update "
+"channels? Stable is recommended. Do not use the development (dev) channels "
+"in a production environment (for example a school) as stability is not "
+"guaranteed. "
+msgstr "Would you like to use the stable or development (dev) software update channels? Stable is recommended. Do not use the development (dev) channels in a production environment (for example a school) as stability is not guaranteed. "
+
+#: pinet:1850
+msgid "Groupcheck"
+msgstr "Groupcheck"
+
+#: pinet:1850
+msgid ""
+"Group-check goes through each user account checking it is assigned the "
+"correct groups. It also resets UI configuration. It can take a number of "
+"minutes if you have a large amount of users."
+msgstr "Group-check goes through each user account checking it is assigned the correct groups. It also resets UI configuration. It can take a number of minutes if you have a large amount of users."
+
+#: pinet:1853
+msgid "All user groups have been checked and if need be, corrected."
+msgstr "All user groups have been checked and if need be, corrected."
+
+#: pinet:1859
+msgid "Raspi-LTSP found!"
+msgstr "Raspi-LTSP found!"
+
+#: pinet:1859
+msgid ""
+"A previous Raspi-LTSP installation has been found! PiNet and Raspi-LTSP can "
+"not be installed at the same time! Please reinstall Ubuntu then run PiNet."
+msgstr "A previous Raspi-LTSP installation has been found! PiNet and Raspi-LTSP can not be installed at the same time! Please reinstall Ubuntu then run PiNet."
+
+#: pinet:1860
+msgid "Raspi-LTSP configuration file found at /etc/raspi-ltsp"
+msgstr "Raspi-LTSP configuration file found at /etc/raspi-ltsp"
+
+#: pinet:1864
+msgid "Raspi-LTSP configuration folder found at /opt/raspiLTSP"
+msgstr "Raspi-LTSP configuration folder found at /opt/raspiLTSP"
+
+#: pinet:1873
+msgid "Import from CSV"
+msgstr "Import from CSV"
+
+#: pinet:1873
+msgid ""
+"PiNet supports importing users from a CSV file. Many user management systems"
+" can export a CSV file with usernames and passwords (or just usernames). The"
+" required format is 1st column is username and 2nd coloum is password. If "
+"the password column is left blank, a default password you select will be "
+"used. Would you like to continue?"
+msgstr "PiNet supports importing users from a CSV file. Many user management systems can export a CSV file with usernames and passwords (or just usernames). The required format is 1st column is username and 2nd coloum is password. If the password column is left blank, a default password you select will be used. Would you like to continue?"
+
+#: pinet:1875
+msgid "Select CSV"
+msgstr "Select CSV"
+
+#: pinet:1875
+msgid "Please now select your CSV file."
+msgstr "Please now select your CSV file."
+
+#: pinet:1879
+msgid "Enter a default password to use if am unable to find one."
+msgstr "Enter a default password to use if am unable to find one."
+
+#: pinet:1879
+msgid "Default password box can't be left blank!"
+msgstr "Default password box can't be left blank!"
+
+#: pinet:1890
+msgid "Delete from CSV"
+msgstr "Delete from CSV"
+
+#: pinet:1890
+msgid ""
+"PiNet supports batch deleting users from a CSV file. The required format is "
+"1st column is username. All other colums are ignored. Would you like to "
+"continue?"
+msgstr "PiNet supports batch deleting users from a CSV file. The required format is 1st column is username. All other colums are ignored. Would you like to continue?"
+
+#: pinet:1892
+msgid "Installation error"
+msgstr "Installation error"
+
+#: pinet:1903
+msgid ""
+"An issue with your PiNet installation has been detected! The Raspbian "
+"operating system is missing or failed to install correctly. This most "
+"commonly is caused by school internet filters blocking software repositories"
+" or the internet connection failing in the middle of installation. At this "
+"stage it is highly recommended attempting a full (including Ubuntu) "
+"reinstall with if possible, a different internet connection. If that fails, "
+"contact support http://pinet.org.uk/articles/support.html"
+msgstr "An issue with your PiNet installation has been detected! The Raspbian operating system is missing or failed to install correctly. This most commonly is caused by school internet filters blocking software repositories or the internet connection failing in the middle of installation. At this stage it is highly recommended attempting a full (including Ubuntu) reinstall with if possible, a different internet connection. If that fails, contact support http://pinet.org.uk/articles/support.html"
+
+#: pinet:1904
+msgid ""
+"You may wish to check the PiNet logs to help diagnose the issue. They can be"
+" found at /var/log/pinet.log."
+msgstr "You may wish to check the PiNet logs to help diagnose the issue. They can be found at /var/log/pinet.log."
+
+#: pinet:1994
+msgid ""
+"How long would you like to store backups? Note this only runs when a backup "
+"runs."
+msgstr "How long would you like to store backups? Note this only runs when a backup runs."
+
+#: pinet:1994
+msgid "Backups will be kept for 10 days then deleted"
+msgstr "Backups will be kept for 10 days then deleted"
+
+#: pinet:1994
+msgid "Backups will be kept for 30 days then deleted"
+msgstr "Backups will be kept for 30 days then deleted"
+
+#: pinet:1994
+msgid "Backups will be kept for 90 days then deleted"
+msgstr "Backups will be kept for 90 days then deleted"
+
+#: pinet:1994
+msgid "I will delete my backups manually"
+msgstr "I will delete my backups manually"
+
+#: pinet:2026
+msgid "How often should PiNet create a backup?"
+msgstr "How often should PiNet create a backup?"
+
+#: pinet:2026
+msgid "Will create a new backup every day"
+msgstr "Will create a new backup every day"
+
+#: pinet:2026
+msgid "Will create a backup on Tuesday and Thursday"
+msgstr "Will create a backup on Tuesday and Thursday"
+
+#: pinet:2026
+msgid "Will create a backup every Friday"
+msgstr "Will create a backup every Friday"
+
+#: pinet:2060
+msgid "Other Submenu"
+msgstr "Other Submenu"
+
+#: pinet:2060
+msgid "Main Menu"
+msgstr "Main Menu"
+
+#: pinet:2060
+msgid "Select"
+msgstr "Select"
+
+#: pinet:2060
+msgid "What would you like to do?"
+msgstr "What would you like to do?"
+
+#: pinet:2060
+msgid "Refreshes network services. Useful if having boot issues"
+msgstr "Refreshes network services. Useful if having boot issues"
+
+#: pinet:2060
+msgid "Customise the config.txt file on the SD cards."
+msgstr "Customise the config.txt file on the SD cards."
+
+#: pinet:2060
+msgid "Force an NBD compress if changes are made outside PiNet"
+msgstr "Force an NBD compress if changes are made outside PiNet"
+
+#: pinet:2060
+msgid "Disable auto NBD recompression after every change"
+msgstr "Disable auto NBD recompression after every change"
+
+#: pinet:2060
+msgid "Enable auto NBD recompression after every change (default)"
+msgstr "Enable auto NBD recompression after every change (default)"
+
+#: pinet:2060
+msgid "Export all user data for migrating to new PiNet server"
+msgstr "Export all user data for migrating to new PiNet server"
+
+#: pinet:2060
+msgid "Change your current update channel to dev or stable"
+msgstr "Change your current update channel to dev or stable"
+
+#: pinet:2060
+msgid "Edit information attached to the PiNet server"
+msgstr "Edit information attached to the PiNet server"
+
+#: pinet:2060
+msgid "Full install of PiNet server"
+msgstr "Full install of PiNet server"
+
+#: pinet:2122
+msgid ""
+"An LTSP install has been detected.. Not recommended to continue. Should "
+"PiNet continue?"
+msgstr "An LTSP install has been detected.. Not recommended to continue. Should PiNet continue?"
+
+#: pinet:2143
+msgid "Shared folders"
+msgstr "Shared folders"
+
+#: pinet:2143
+msgid "Create a new shared folder"
+msgstr "Create a new shared folder"
+
+#: pinet:2143
+msgid "Remove a shared folder"
+msgstr "Remove a shared folder"
+
+#: pinet:2143
+msgid "Changes shared folder permissions"
+msgstr "Changes shared folder permissions"
+
+#: pinet:2143
+msgid "Display a list of all shared folders"
+msgstr "Display a list of all shared folders"
+
+#: pinet:2143
+msgid "Add a new account to the teacher group"
+msgstr "Add a new account to the teacher group"
+
+#: pinet:2181
+msgid "Epoptes Submenu"
+msgstr "Epoptes Submenu"
+
+#: pinet:2181
+msgid ""
+"Epoptes classroom management software is a free, open source and easy to use"
+" computer lab management and monitoring tool. What would you like to do?"
+msgstr "Epoptes classroom management software is a free, open source and easy to use computer lab management and monitoring tool. What would you like to do?"
+
+#: pinet:2181
+msgid "Install Epoptes onto the server and Raspberry Pis"
+msgstr "Install Epoptes onto the server and Raspberry Pis"
+
+#: pinet:2181
+msgid "Launches Epoptes, it must be installed first though"
+msgstr "Launches Epoptes, it must be installed first though"
+
+#: pinet:2181
+msgid "Uninstall Epoptes from the server and Raspberry Pis"
+msgstr "Uninstall Epoptes from the server and Raspberry Pis"
+
+#: pinet:2192
+msgid "Epoptes install"
+msgstr "Epoptes install"
+
+#: pinet:2192
+msgid ""
+"I am now going to install Epoptes classroom management software on the "
+"server and Raspberry Pis. Would you like to continue?"
+msgstr "I am now going to install Epoptes classroom management software on the server and Raspberry Pis. Would you like to continue?"
+
+#: pinet:2199
+msgid "No internet connection, unable to proceed..."
+msgstr "No internet connection, unable to proceed..."
+
+#: pinet:2215
+msgid "Epoptes"
+msgstr "Epoptes"
+
+#: pinet:2215
+msgid "Epoptes has been removed from the pi image"
+msgstr "Epoptes has been removed from the pi image"
+
+#: pinet:2229
+msgid "Backup Submenu"
+msgstr "Backup Submenu"
+
+#: pinet:2229
+msgid "Configure and enable backups. Also use to make changes"
+msgstr "Configure and enable backups. Also use to make changes"
+
+#: pinet:2229
+msgid "Disables backup daemon, old backups will not be deleted"
+msgstr "Disables backup daemon, old backups will not be deleted"
+
+#: pinet:2229
+msgid "Displays logs for the backup daemon, check these regularly!"
+msgstr "Displays logs for the backup daemon, check these regularly!"
+
+#: pinet:2239
+msgid "Select Location"
+msgstr "Select Location"
+
+#: pinet:2239
+msgid ""
+"Select the location where you wish to save the backups. An external hard "
+"drive is highly recommended! Even a large (16gb+) pendrive should be "
+"sufficient. In Linux external drives are attached in /media so you will "
+"start there. Do not save backups on the same hard drive as the /home folder!"
+msgstr "Select the location where you wish to save the backups. An external hard drive is highly recommended! Even a large (16gb+) pendrive should be sufficient. In Linux external drives are attached in /media so you will start there. Do not save backups on the same hard drive as the /home folder!"
+
+#: pinet:2253
+msgid "Backup setup"
+msgstr "Backup setup"
+
+#: pinet:2253
+msgid ""
+"The backup is now configured, the logs can be viewed at any time by checking"
+" /var/log/PiNet-backup.log"
+msgstr "The backup is now configured, the logs can be viewed at any time by checking /var/log/PiNet-backup.log"
+
+#: pinet:2263
+msgid "Backup disabled"
+msgstr "Backup disabled"
+
+#: pinet:2263
+msgid ""
+"The backup daemon has now been disabled, no more backups will be performed "
+"till it is enabled again with Configure-backup. All old backups have been "
+"kept."
+msgstr "The backup daemon has now been disabled, no more backups will be performed till it is enabled again with Configure-backup. All old backups have been kept."
+
+#: pinet:2269
+msgid "PiNet log file"
+msgstr "PiNet log file"
+
+#: pinet:2274
+msgid "Manage-users Submenu"
+msgstr "Manage-users Submenu"
+
+#: pinet:2291
+msgid "Add a new Linux user"
+msgstr "Add a new Linux user"
+
+#: pinet:2291
+msgid "Remove a Linux user"
+msgstr "Remove a Linux user"
+
+#: pinet:2291
+msgid "Change password of a user"
+msgstr "Change password of a user"
+
+#: pinet:2291
+msgid "List all the users on the system"
+msgstr "List all the users on the system"
+
+#: pinet:2291
+msgid "Add user to the staff permission group"
+msgstr "Add user to the staff permission group"
+
+#: pinet:2291
+msgid "Import usernames and passwords from a CSV file"
+msgstr "Import usernames and passwords from a CSV file"
+
+#: pinet:2291
+msgid "Batch delete users from a CSV file"
+msgstr "Batch delete users from a CSV file"
+
+#: pinet:2291
+msgid "Change student sudo permissions. Used for GPIO access"
+msgstr "Change student sudo permissions. Used for GPIO access"
+
+#: pinet:2291
+msgid "Checks all users are in the correct system groups"
+msgstr "Checks all users are in the correct system groups"
+
+#: pinet:2291
+msgid "Full Install"
+msgstr "Full Install"
+
+#: pinet:2375
+msgid ""
+"A full install will take around 1-2 hours depending on your Internet speed. "
+"There will be a number of options to select at the end so do not close this "
+"terminal until the install has completed!"
+msgstr "A full install will take around 1-2 hours depending on your Internet speed. There will be a number of options to select at the end so do not close this terminal until the install has completed!"
+
+#: pinet:2445
+msgid "Rebuild complete"
+msgstr "Rebuild complete"
+
+#: pinet:2445
+msgid ""
+"PiNet rebuild is now complete. You will need to flash an SD card with the "
+"PiNet boot files, instructions can be found at "
+"http://pinet.org.uk/articles/installation/sd-card-copy.html. Then plug the "
+"Raspberry Pi into the network and boot it up."
+msgstr "PiNet rebuild is now complete. You will need to flash an SD card with the PiNet boot files, instructions can be found at http://pinet.org.uk/articles/installation/sd-card-copy.html. Then plug the Raspberry Pi into the network and boot it up."
+
+#: pinet:2447
+msgid "PiNet $version Main Menu - $IP"
+msgstr "PiNet $version Main Menu - $IP"
+
+#: pinet:2456
+msgid "Quit"
+msgstr "Quit"
+
+#: pinet:2456
+msgid "Display status of key parts of your PiNet server"
+msgstr "Display status of key parts of your PiNet server"
+
+#: pinet:2456
+msgid "Install a new program on the Raspberry Pi's"
+msgstr "Install a new program on the Raspberry Pi's"
+
+#: pinet:2456
+msgid "Add new users, change passwords and delete users"
+msgstr "Add new users, change passwords and delete users"
+
+#: pinet:2456
+msgid "Run an automatic update on server and Raspbian"
+msgstr "Run an automatic update on server and Raspbian"
+
+#: pinet:2456
+msgid "User files backup submenu"
+msgstr "User files backup submenu"
+
+#: pinet:2456
+msgid "Manage and create shared folders"
+msgstr "Manage and create shared folders"
+
+#: pinet:2456
+msgid "Collects students work in a single folder"
+msgstr "Collects students work in a single folder"
+
+#: pinet:2456
+msgid "Update the SD card image. This includes IP address changes"
+msgstr "Update the SD card image. This includes IP address changes"
+
+#: pinet:2456
+msgid "Rebuilds the LTSP Raspberry Pi image from scratch again"
+msgstr "Rebuilds the LTSP Raspberry Pi image from scratch again"
+
+#: pinet:2456
+msgid "Epoptes classroom management submenu"
+msgstr "Epoptes classroom management submenu"
+
+#: pinet:2456
+msgid "Having issues? Try running the troubleshooter"
+msgstr "Having issues? Try running the troubleshooter"
+
+#: pinet:2456
+msgid "Other options and utilities for management"
+msgstr "Other options and utilities for management"
+
+#: pinet:2456
+msgid "Forces PiNet to update itself"
+msgstr "Forces PiNet to update itself"
+
+#: pinet:2480
+msgid "SD image updated"
+msgstr "SD image updated"
+
+#: pinet:2480
+msgid ""
+"SD card image updated. A folder of boot files in /home/$SUDO_USER/PiBoot has"
+" been created. An experimental disk image ready to flash onto the SD card "
+"has also been created at /home/$SUDO_USER/pinetSDImage.img. You can use "
+"either option. See http://pinet.org.uk/articles/installation/sd-card-"
+"copy.html for help."
+msgstr "SD card image updated. A folder of boot files in /home/$SUDO_USER/PiBoot has been created. An experimental disk image ready to flash onto the SD card has also been created at /home/$SUDO_USER/pinetSDImage.img. You can use either option. See http://pinet.org.uk/articles/installation/sd-card-copy.html for help."
+
+#: pinet:2493
+msgid ""
+"Warning, you are about to delete the entire Raspbian OS from the server and "
+"rebuild it. Students files are not affected but any custom programs added "
+"will need to be re-added. This will take 1-2 hours. Are you sure?"
+msgstr "Warning, you are about to delete the entire Raspbian OS from the server and rebuild it. Students files are not affected but any custom programs added will need to be re-added. This will take 1-2 hours. Are you sure?"
+
+#: pinet:2548
+msgid "This script must be run as root"
+msgstr "This script must be run as root"
+
+#: pinet:2553
+msgid "Shell error"
+msgstr "Shell error"
+
+#: pinet:2553
+msgid ""
+"Please do not run PiNet with sudo sh $0. Please run it with bash using     "
+"sudo bash $0"
+msgstr "Please do not run PiNet with sudo sh $0. Please run it with bash using     sudo bash $0"
+
+#: pinet:2554
+msgid ""
+"Please do not run PiNet with sh $0. Please run it with bash using     sudo "
+"bash $0"
+msgstr "Please do not run PiNet with sh $0. Please run it with bash using     sudo bash $0"
+
+#: pinet:2559
+msgid ""
+"No user in the SUDO_USER variable was detected. This occurs when you didn't "
+"launch the application with sudo. Please enter your normal Linux username."
+msgstr "No user in the SUDO_USER variable was detected. This occurs when you didn't launch the application with sudo. Please enter your normal Linux username."
+
+#: pinet:2559
+msgid "Unsupported operating system"
+msgstr "Unsupported operating system"
+
+#: pinet:2564
+msgid "Starting PiNet - Please wait"
+msgstr "Starting PiNet - Please wait"
+
+#: pinet:2588
+msgid "Welcome"
+msgstr "Welcome"
+
+#: pinet:2588
+msgid ""
+"Welcome to PiNet. We have detected PiNet is not installed, would you like to"
+" run the full PiNet installation?"
+msgstr "Welcome to PiNet. We have detected PiNet is not installed, would you like to run the full PiNet installation?"
