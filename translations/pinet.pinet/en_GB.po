@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PiNet\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-03 21:42+0000\n"
-"PO-Revision-Date: 2017-03-23 21:51+0000\n"
+"PO-Revision-Date: 2017-04-22 20:27+0000\n"
 "Last-Translator: PiNet <support@pi-ltsp.net>\n"
 "Language-Team: English (United Kingdom) (http://www.transifex.com/pinet/pinet/language/en_GB/)\n"
 "MIME-Version: 1.0\n"
@@ -1166,67 +1166,67 @@ msgstr "PiNet rebuild is now complete. You will need to flash an SD card with th
 msgid "PiNet $version Main Menu - $IP"
 msgstr "PiNet $version Main Menu - $IP"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Quit"
 msgstr "Quit"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Display status of key parts of your PiNet server"
 msgstr "Display status of key parts of your PiNet server"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Install a new program on the Raspberry Pi's"
 msgstr "Install a new program on the Raspberry Pi's"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Add new users, change passwords and delete users"
 msgstr "Add new users, change passwords and delete users"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Run an automatic update on server and Raspbian"
 msgstr "Run an automatic update on server and Raspbian"
 
-#: pinet:2456
+#: pinet:2455
 msgid "User files backup submenu"
 msgstr "User files backup submenu"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Manage and create shared folders"
 msgstr "Manage and create shared folders"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Collects students work in a single folder"
 msgstr "Collects students work in a single folder"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Update the SD card image. This includes IP address changes"
 msgstr "Update the SD card image. This includes IP address changes"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Rebuilds the LTSP Raspberry Pi image from scratch again"
 msgstr "Rebuilds the LTSP Raspberry Pi image from scratch again"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Epoptes classroom management submenu"
 msgstr "Epoptes classroom management submenu"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Having issues? Try running the troubleshooter"
 msgstr "Having issues? Try running the troubleshooter"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Other options and utilities for management"
 msgstr "Other options and utilities for management"
 
-#: pinet:2456
+#: pinet:2455
 msgid "Forces PiNet to update itself"
 msgstr "Forces PiNet to update itself"
 
-#: pinet:2480
+#: pinet:2479
 msgid "SD image updated"
 msgstr "SD image updated"
 
-#: pinet:2480
+#: pinet:2479
 msgid ""
 "SD card image updated. A folder of boot files in /home/$SUDO_USER/PiBoot has"
 " been created. An experimental disk image ready to flash onto the SD card "
@@ -1235,53 +1235,53 @@ msgid ""
 "copy.html for help."
 msgstr "SD card image updated. A folder of boot files in /home/$SUDO_USER/PiBoot has been created. An experimental disk image ready to flash onto the SD card has also been created at /home/$SUDO_USER/pinetSDImage.img. You can use either option. See http://pinet.org.uk/articles/installation/sd-card-copy.html for help."
 
-#: pinet:2493
+#: pinet:2492
 msgid ""
 "Warning, you are about to delete the entire Raspbian OS from the server and "
 "rebuild it. Students files are not affected but any custom programs added "
 "will need to be re-added. This will take 1-2 hours. Are you sure?"
 msgstr "Warning, you are about to delete the entire Raspbian OS from the server and rebuild it. Students files are not affected but any custom programs added will need to be re-added. This will take 1-2 hours. Are you sure?"
 
-#: pinet:2548
+#: pinet:2547
 msgid "This script must be run as root"
 msgstr "This script must be run as root"
 
-#: pinet:2553
+#: pinet:2552
 msgid "Shell error"
 msgstr "Shell error"
 
-#: pinet:2553
+#: pinet:2552
 msgid ""
 "Please do not run PiNet with sudo sh $0. Please run it with bash using     "
 "sudo bash $0"
 msgstr "Please do not run PiNet with sudo sh $0. Please run it with bash using     sudo bash $0"
 
-#: pinet:2554
+#: pinet:2553
 msgid ""
 "Please do not run PiNet with sh $0. Please run it with bash using     sudo "
 "bash $0"
 msgstr "Please do not run PiNet with sh $0. Please run it with bash using     sudo bash $0"
 
-#: pinet:2559
+#: pinet:2558
 msgid ""
 "No user in the SUDO_USER variable was detected. This occurs when you didn't "
 "launch the application with sudo. Please enter your normal Linux username."
 msgstr "No user in the SUDO_USER variable was detected. This occurs when you didn't launch the application with sudo. Please enter your normal Linux username."
 
-#: pinet:2559
+#: pinet:2558
 msgid "Unsupported operating system"
 msgstr "Unsupported operating system"
 
-#: pinet:2564
+#: pinet:2563
 msgid "Starting PiNet - Please wait"
 msgstr "Starting PiNet - Please wait"
 
-#: pinet:2588
+#: pinet:2587
 msgid "Welcome"
 msgstr "Welcome"
 
-#: pinet:2588
+#: pinet:2587
 msgid ""
-"Welcome to PiNet. We have detected PiNet is not installed, would you like to"
-" run the full PiNet installation?"
-msgstr "Welcome to PiNet. We have detected PiNet is not installed, would you like to run the full PiNet installation?"
+"Welcome to PiNet. No previous PiNet installation is detected, would you like"
+" to run the full PiNet installer? "
+msgstr "Welcome to PiNet. No previous PiNet installation is detected, would you like to run the full PiNet installer? "

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PiNet\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-09-03 21:42+0000\n"
-"PO-Revision-Date: 2017-03-23 21:51+0000\n"
+"PO-Revision-Date: 2017-04-22 20:27+0000\n"
 "Last-Translator: PiNet <support@pi-ltsp.net>\n"
 "Language-Team: Chinese (http://www.transifex.com/pinet/pinet/language/zh/)\n"
 "MIME-Version: 1.0\n"
@@ -1166,67 +1166,67 @@ msgstr ""
 msgid "PiNet $version Main Menu - $IP"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Quit"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Display status of key parts of your PiNet server"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Install a new program on the Raspberry Pi's"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Add new users, change passwords and delete users"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Run an automatic update on server and Raspbian"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "User files backup submenu"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Manage and create shared folders"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Collects students work in a single folder"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Update the SD card image. This includes IP address changes"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Rebuilds the LTSP Raspberry Pi image from scratch again"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Epoptes classroom management submenu"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Having issues? Try running the troubleshooter"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Other options and utilities for management"
 msgstr ""
 
-#: pinet:2456
+#: pinet:2455
 msgid "Forces PiNet to update itself"
 msgstr ""
 
-#: pinet:2480
+#: pinet:2479
 msgid "SD image updated"
 msgstr ""
 
-#: pinet:2480
+#: pinet:2479
 msgid ""
 "SD card image updated. A folder of boot files in /home/$SUDO_USER/PiBoot has"
 " been created. An experimental disk image ready to flash onto the SD card "
@@ -1235,53 +1235,53 @@ msgid ""
 "copy.html for help."
 msgstr ""
 
-#: pinet:2493
+#: pinet:2492
 msgid ""
 "Warning, you are about to delete the entire Raspbian OS from the server and "
 "rebuild it. Students files are not affected but any custom programs added "
 "will need to be re-added. This will take 1-2 hours. Are you sure?"
 msgstr ""
 
-#: pinet:2548
+#: pinet:2547
 msgid "This script must be run as root"
 msgstr ""
 
-#: pinet:2553
+#: pinet:2552
 msgid "Shell error"
 msgstr ""
 
-#: pinet:2553
+#: pinet:2552
 msgid ""
 "Please do not run PiNet with sudo sh $0. Please run it with bash using     "
 "sudo bash $0"
 msgstr ""
 
-#: pinet:2554
+#: pinet:2553
 msgid ""
 "Please do not run PiNet with sh $0. Please run it with bash using     sudo "
 "bash $0"
 msgstr ""
 
-#: pinet:2559
+#: pinet:2558
 msgid ""
 "No user in the SUDO_USER variable was detected. This occurs when you didn't "
 "launch the application with sudo. Please enter your normal Linux username."
 msgstr ""
 
-#: pinet:2559
+#: pinet:2558
 msgid "Unsupported operating system"
 msgstr ""
 
-#: pinet:2564
+#: pinet:2563
 msgid "Starting PiNet - Please wait"
 msgstr ""
 
-#: pinet:2588
+#: pinet:2587
 msgid "Welcome"
 msgstr ""
 
-#: pinet:2588
+#: pinet:2587
 msgid ""
-"Welcome to PiNet. We have detected PiNet is not installed, would you like to"
-" run the full PiNet installation?"
+"Welcome to PiNet. No previous PiNet installation is detected, would you like"
+" to run the full PiNet installer? "
 msgstr ""
