@@ -1,0 +1,657 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-22 20:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../pinet/Scripts/pinet-functions-python.py:165
+msgid "Error in installing {} due to invalid install type."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:172
+msgid "Custom package"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:174
+msgid ""
+"Enter the name of the name of your package from apt you wish to install."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:177
+#: ../pinet/Scripts/pinet-functions-python.py:198
+#: ../pinet/Scripts/pinet-functions-python.py:1445
+#: ../pinet/Scripts/pinet-functions-python.py:1452
+#: ../pinet/Scripts/pinet-functions-python.py:1925
+msgid "Are you sure?"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:179
+msgid ""
+"Are you sure you want to cancel the installation of a custom apt package?"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:194
+msgid "Custom Python package"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:195
+msgid ""
+"Enter the name of the name of your python package from pip you wish to "
+"install."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:200
+msgid ""
+"Are you sure you want to cancel the installation of a custom pip package?"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:242
+#: ../pinet/Scripts/pinet-functions-python.py:311
+msgid "Command failed to execute"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:243
+#: ../pinet/Scripts/pinet-functions-python.py:312
+msgid "Command \""
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:245
+#: ../pinet/Scripts/pinet-functions-python.py:314
+#: ../pinet/Scripts/pinet-functions-python.py:2165
+msgid "Continue"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:245
+#: ../pinet/Scripts/pinet-functions-python.py:314
+msgid "Retry"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:969
+msgid "Main Raspbian repository"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:970
+msgid "Raspberry Pi Foundation repository"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:972
+msgid "Github"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:973
+msgid "Bit.ly"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:974
+msgid "Bitbucket (Github mirror, not active yet)"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:976
+msgid "PiNet metrics"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1003
+msgid "Unable to proceed"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1004
+msgid ""
+"The requested action is unable to proceed as PiNet is not able to access a "
+"critical site. Perhaps your internet connection is not active or a proxy or "
+"web filtering system may be blocking access. The critical domain that is "
+"unable to be accessed is - "
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1010
+#: ../pinet/Scripts/pinet-functions-python.py:1018
+msgid "Proceeding not recommended"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1011
+msgid ""
+"A highly recommended site is inaccessible. Perhaps a proxy or web filtering "
+"system may be blockeing access. Would you like to proceed anyway? (not "
+"recommended). The domain that is unable to be accessed is - "
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1019
+msgid ""
+"A recommended site is inaccessible. Perhaps a proxy or web filtering system "
+"may be blockeing access. Would you like to proceed anyway? (not "
+"recommended). The domain that is unable to be accessed is - "
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1037
+msgid "Installing update"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1048
+msgid "Update complete"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1055
+msgid "Update failed..."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1070
+msgid "No Internet Connection"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1085
+msgid "Update detected"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1085
+msgid ""
+"An update has been detected for PiNet. Select OK to view the Release History."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1089
+msgid "No PiNet software updates found"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1093
+msgid ""
+"Unable to perform automatic update checks on this branch as the standard "
+"release format isn't followed. To update, use the manual Update-PiNet option."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1098
+msgid "Unable to check for PiNet updates, unable to download {}."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1122
+#: ../pinet/Scripts/pinet-functions-python.py:1129
+msgid "No kernel updates found"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1125
+msgid "Unable to check for kernel updates, unable to download {}."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1149
+msgid "Unable to check for kernel updater updates, unable to download {}."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1196
+msgid "Release history (Use arrow keys to scroll)"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1197
+msgid "Install "
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1197
+#: ../pinet/Scripts/pinet-functions-python.py:1258
+#: ../pinet/Scripts/pinet-functions-python.py:1299
+msgid "Cancel"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1221
+#: ../pinet/Scripts/pinet-functions-python.py:1240
+#: ../pinet/Scripts/pinet-functions-python.py:1288
+#: ../pinet/Scripts/pinet-functions-python.py:1889
+msgid "Error!"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1221
+msgid "CSV file invalid! Error was - "
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1227
+msgid "Error! CSV file not found at"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1241
+#: ../pinet/Scripts/pinet-functions-python.py:1290
+msgid ""
+"CSV file names column (1st column) contains spaces in the usernames! This "
+"isn't supported."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1254
+#: ../pinet/Scripts/pinet-functions-python.py:1297
+msgid "Username"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1255
+msgid "Password - "
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1257
+msgid "About to import (Use arrow keys to scroll)"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1258
+msgid "Import"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1273
+#: ../pinet/Scripts/pinet-functions-python.py:1311
+msgid "Complete"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1273
+msgid "Importing of CSV data has been complete."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1298
+msgid "About to attempt to delete (Use arrow keys to scroll)"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1299
+msgid "Delete"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1311
+msgid "Delete of users from CSV file complete"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1415
+msgid "Programming environment for Arduino microcontrollers"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1417
+msgid "A special version of scratch for GPIO work"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1418
+msgid "Free and open source classroom management software"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1421
+msgid "Allows you to enter the name of a package from Raspbian repository"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1423
+msgid "Allows you to enter the name of a Python library from pip."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1433
+msgid "Additional Software"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1434
+msgid ""
+"In the next window you can select additional software you wish to install. "
+"Use space bar to select applications and hit enter when you are finished."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1436
+msgid "Extra Software Submenu"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1437
+msgid ""
+"Select any software you want to install. Use space bar to select then enter "
+"to continue."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1446
+msgid "Are you sure you don't want to install any additional software?"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1453
+msgid "Are you sure you want to install this software?"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1477
+msgid "Installing"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1724
+msgid "Compressing the image, this will take roughly 5 minutes"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1729
+msgid ""
+"Auto recompression of Raspbian OS is disabled. To enable, run NBD-recompress "
+"from the Other menu."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1794
+msgid "Stats"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1795
+msgid ""
+"Please be aware PiNet now collects very basic usage stats. These stats are "
+"uploaded to the secure PiNet metrics server over an encrypted 2048 bit SSL/"
+"TLS connection. The stats logged are PiNet version, Raspbian kernel version, "
+"number of users, development channel (stable or dev), external IP address, a "
+"randomly generated unique ID and any additional information you choose to "
+"add. These stats are uploaded in the background when PiNet checks for "
+"updates. Should you wish to disable the stats, see - http://pinet.org.uk/"
+"articles/advanced/metrics.html"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1805
+#: ../pinet/Scripts/pinet-functions-python.py:1817
+msgid "Additional information"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1806
+msgid ""
+"It is really awesome to see and hear from users across the world using "
+"PiNet. So we can start plotting schools/organisations using PiNet on a map, "
+"feel free to add any extra information to your PiNet server. It hugely helps "
+"us out also for internationalisation/localisation of PiNet. If you do not "
+"want to attach any extra information, please simply leave the following "
+"prompts blank."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1808
+msgid "Nearest major city"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1809
+msgid ""
+"To help with putting a dot on the map for your server, what is your nearest "
+"major town or city? Leave blank if you don't want to answer."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1811
+msgid "Organisation type"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1812
+msgid ""
+"What type of organisation are you setting PiNet up for? Leave on blank if "
+"you don't want to answer."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1815
+msgid "School/organisation name"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1816
+msgid ""
+"What is the name of your organisation? Leave blank if you don't want to "
+"answer."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1818
+msgid ""
+"Thanks for taking the time to read through (and if possible fill in) "
+"additional information. If you ever want to edit your information supplied, "
+"you can do so by selecting the \"Other\" menu and selecting \"Edit-"
+"Information\"."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1865
+msgid "Backup Chroot name"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1866
+msgid ""
+"Please enter a name to store the backup chroot under. Do not include spaces."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1869
+msgid "Invalid name"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1870
+msgid ""
+"Please do not include spaces in the filename or leave the filename blank."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1885
+msgid "Backup complete"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1885
+msgid "Raspbian chroot backup is now complete."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1889
+msgid "Backup failed!"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1918
+msgid "No backups"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1918
+msgid "No Raspbian chroots found "
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1921
+msgid "Select backup"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1921
+msgid "Select your Raspbian chroot backup to restore"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1926
+msgid ""
+"The old Raspbian chroot will now be deleted and your chosen one copied into "
+"its place. There is no way to undo this process. Are you sure you wish to "
+"proceed?"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1935
+msgid "Unable to restore"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1936
+msgid ""
+"Unable to restore backup chroot. The Raspbian chroot being restored is "
+"corrupt or damaged. Your previous Rabpain chroot has been left untouched."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1950
+msgid "Raspbian Jessie update"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1951
+msgid ""
+"A major update for your version of Raspbian is available. You are currently "
+"running Raspbian Wheezy, although the next big release (Raspbian Jessie) has "
+"now been released by the Raspberry Pi Foundation. As they have officially "
+"discontinued support for Raspbian Wheezy, it is highly recommended you "
+"proceed with the automatic update. Note that any custom configurations or "
+"changes you have made with Raspbian will be reset on installation of this "
+"update. Future updates for PiNet will only support Raspbian Jessie."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1953
+msgid "Proceed"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1954
+msgid ""
+"Would you like to proceed with Raspbian Jessie update? It will take 1-2 "
+"hours as Raspbian will be fully rebuilt. Note PiNet Wheezy support will be "
+"officially discontinued on 1st July 2017."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1958
+msgid "Backup chroot"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1959
+msgid ""
+"Before proceeding with the update, a backup of the Raspbian chroot will be "
+"performed. You can revert to this later if need be. It will be called {} and "
+"stored at {}."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1976
+msgid "Custom config.txt values"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1976
+msgid ""
+"Custom config.txt values can be added in the following text file. Any "
+"changes made in this file will be added onto the end of the default config."
+"txt file"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1988
+msgid "Update-SD"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:1988
+msgid ""
+"Config file has been updated. To push this update out, Update-SD needs run. "
+"Would you like to run Update-SD?"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2131
+msgid "Release channel selection"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2131
+msgid ""
+"There are a number of different release channels (branches) for PiNet. The "
+"default is stable which is suitable for production use. There is also Beta "
+"if you like testing new features, but are happy to accept the risk it could "
+"be buggy. Finally, there is Alpha. Alpha is the expermiental versions if you "
+"want to help test early copies of PiNet."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2134
+msgid "no channel selected, defaulting to stable"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2135
+msgid "Release Channel"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2135
+msgid ""
+"Select a release channel to use. If in doubt, select Stable. Your current "
+"selected channel is \"{}\"."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2135
+msgid "Extensively tested. Recommended for production use."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2135
+msgid "Partially tested. Suitable in non production environment."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2135
+msgid "Experimental & untested. Use only for testing bleeding edge features."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2165
+msgid "IP Address"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2165
+msgid ""
+"Your detected local IP address is {}. This will be added to the SD card boot "
+"files. If it has been detected incorrectly, select change below. Otherwise, "
+"select continue."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2165
+msgid "Change"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2167
+msgid "Custom IP address"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2167
+msgid "Enter the IP address you plan to use for your PiNet server below."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2201
+#: ../pinet/Scripts/pinet-functions-python.py:2205
+msgid "Internet connection unavailable"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2201
+msgid ""
+"Unable to download new boot files as unable to detect an active internet "
+"connection. Previous backup copy will be used."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2205
+msgid ""
+"Unable to download boot files as unable to detect an active internet "
+"connection. Please connect to the internet to proceed."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2326
+msgid "Extracting main migration archive."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2331
+msgid "Extracting home folder archive."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2341
+msgid "Importing {} home folder."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2347
+msgid ""
+"Home folders import complete. The following home folders were ignored as "
+"already existed - {}"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2351
+msgid ""
+"Key files missing from {}root/move/ ! It should include home.tar.gz, group."
+"mig, passwd.mig and shadow.mig."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2389
+msgid "PiNet integrity check has failed!"
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2392
+msgid "The following files/folders are missing."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2397
+msgid ""
+"The most likely cause of the missing files/folders above is issues with the "
+"PiNet installation process, which is common if used on a filtered internet "
+"connection."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2398
+msgid ""
+"If you are seeing this a long period of time after an installation, it may "
+"be that your PiNet Raspbian chroot has become corrupt is some way."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2399
+msgid ""
+"If you have just installed PiNet, perhaps retry (after fresh full Ubuntu "
+"reinstall) using a different internet connection."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2400
+msgid ""
+"Otherwise, visit http://pinet.org.uk/articles/support.html to get in touch. "
+"Include a screenshot of this error message."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2402
+msgid "Press enter to continue..."
+msgstr ""
+
+#: ../pinet/Scripts/pinet-functions-python.py:2419
+msgid "This python script does nothing on its own, it must be passed stuff"
+msgstr ""
